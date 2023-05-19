@@ -1,0 +1,159 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display')
+$RedHatDisplay: 'Red Hat Display', sans-serif
+$PaleBlue: hsl(225, 100%, 94%)
+$BrightBlue: hsl(245, 75%, 52%)
+$HoverBlue: hsl(245, 75%, 75%)
+$VeryPaleblue: hsl(225, 100%, 98%)
+$DesaturatedBlue: hsl(224, 23%, 55%)
+$DarkBlue:  hsl(223, 47%, 23%)
+
+
+body 
+    background: url(../images/pattern-background-desktop.svg) no-repeat fixed top
+    background-size: contain
+    background-color: $PaleBlue
+    font-family: $RedHatDisplay
+    font-weight: 500
+
+p
+    font-size: 16px
+
+h3
+    color: $DarkBlue
+    font-weight: 900
+
+
+.mainContainer 
+    text-align: center
+    // border: 2px solid blue
+    width: 35vw
+    margin: 15vh auto
+    border-radius: 16px
+    /* padding: 20px */
+    box-shadow: 0px 15px 15px rgba($DesaturatedBlue, 0.3)
+    @media (max-width: 1440px)
+        width: 28vw
+    @media (max-width: 1024px)
+        width: 40vw    
+    @media (max-width: 768px)
+        width: 90vw
+        margin: 10vh auto
+    @media (max-width: 280px)
+        margin: 5vh auto
+
+
+.itemContainer:first-of-type
+    color: $DesaturatedBlue
+    & p
+        font-size: 14px
+        margin: 0 20px
+        padding: 0 20px
+        line-height: 1.75
+        font-weight: 500
+
+button 
+    margin: 10px 20px
+    width: 90%
+
+
+.flexContainer 
+    display: flex
+    // border: 2px solid red
+    align-items: center
+    padding: 15px
+    background-color: $VeryPaleblue
+    border-radius: 16px
+    margin: 15px
+    & .itemContainer:nth-of-type(2)
+        padding-left: 0
+    @media (max-width: 280px)
+        flex-direction: column
+        & .itemContainer.end
+            margin: 0 auto
+    @media (max-width: 375px)
+        & .itemContainer
+            padding: 0 5px
+
+.itemContainer:nth-of-type(2)
+    text-align: center
+    & p:first-of-type
+        color: $DarkBlue
+        font-size: 14px
+        font-weight: 900
+    & p:nth-of-type(2)
+        font-size: 14px
+        font-weight: 500
+        color: $DesaturatedBlue
+        transform: scale(1.25, 0.95)
+        
+    & p 
+        margin: 5px
+
+
+.contentContainer 
+    background-color: white
+    border-radius: 0 0 16px 16px
+
+
+.itemContainer 
+    /* border: 1px solid green */
+    /* margin: 10px */
+    padding: 5px 15px
+
+
+.end 
+    margin-left: auto
+    padding-right: 15px
+    font-size: 12px
+    font-weight: 900
+    & a:hover
+        color: $HoverBlue
+        text-decoration: none
+
+
+
+.attribution  
+    font-size: 11px 
+    text-align: center
+    color: $DesaturatedBlue
+
+.attribution a  
+    color: hsl(228, 45%, 44%)
+    text-decoration: none
+    text-transform: uppercase
+
+#topImageContainer
+    margin-bottom: -3px
+
+#topImageContainer img 
+    border-radius: 16px 16px 0 0
+    width: 100%
+
+#btnProcToPayment 
+    background-color: $BrightBlue
+    color: white
+    border: none
+    border-radius: 8px
+    padding: 15px
+    font-size: 14px
+    font-weight: 700
+    cursor: pointer
+    width: 100%
+    box-shadow: 0px 15px 15px $PaleBlue
+    &:hover
+        background-color: $HoverBlue
+
+#btnCancel
+    background-color: white
+    border: none
+    color: $DesaturatedBlue
+    font-size: 15px
+    font-weight: 700
+    cursor: pointer
+    // transform: scale(1.05, 0.90)
+    // letter-spacing: 0.2px
+    &:hover
+        color: black
+
+button
+    margin: 15px auto
