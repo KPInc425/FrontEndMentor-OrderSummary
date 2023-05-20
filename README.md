@@ -33,7 +33,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [This Page Holds the Solution](https://github.com/KPInc425/FrontEndMentor-OrderSummary)
 - Live Site URL: [Github Pages](https://kpinc425.github.io/FrontEndMentor-OrderSummary/)
 
 ## My process
@@ -58,7 +57,7 @@ I learned a bit more about hsl color system and mixing systems, by making a sass
     box-shadow: 0px 15px 15px rgba($DesaturatedBlue, 0.3)
 ```
 
-This alloud me to use the same color for a shadow but lighten it up a bit quickly.
+This alloud me to use the same color for a shadow but lighten it up a bit more quickly.
 
 ### Continued development
 
