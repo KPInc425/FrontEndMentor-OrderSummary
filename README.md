@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [This Page Holds the Solution](https://github.com/KPInc425/FrontEndMentor-OrderSummary)
+- Live Site URL: [Github Pages](https://kpinc425.github.io/FrontEndMentor-OrderSummary/)
 
 ## My process
 
