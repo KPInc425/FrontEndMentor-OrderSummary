@@ -18,7 +18,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Overview
 
-
+Used Sass and some basic html to create an order summary card built mobile first, but responsive at many sizes.
 
 ### The challenge
 
@@ -38,66 +38,43 @@ Users should be able to:
 
 ## My process
 
+I have been wanted to break down some of the technologies I have worked with into smaller parts to better understand them. For such simple task, I thought setting some basic Sass and practicing the .sass indent formatting would be interesting as I had some fun learning it in a previous project. I used the basic skeloton provided and worked from top down doing my best to replicate the design images.
+
 ### Built with
 
-- Semantic HTML5 markup
+- HTML
 - CSS custom properties
+- Dart-Sass
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I mostly too a small dive into the history of Sass and its evolution to the most widely used Dart-Sass. Used the most basic version with npm script to watch the files for changes. 
 
-To see how you can add code snippets, see below:
+I learned a bit more about hsl color system and mixing systems, by making a sass variable and using it in a rgba color we can change the opacity on the fly.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+    box-shadow: 0px 15px 15px rgba($DesaturatedBlue, 0.3)
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+This alloud me to use the same color for a shadow but lighten it up a bit quickly.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I think future challenges will be either react or web components to start building a libray of reusable components for future projects
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Sass Doc's](https://sass-lang.com/guide) - I looked a couple of different places first, but nothing usually beats the documentation, sprinkled with some patience.
+- [Steve Griffins Intro Video](https://www.youtube.com/watch?v=5jZGo_k8Rd0) - Sometimes you just need a visual aid, I was just having trouble connecting some dots.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Coming Soon](https://www.your-site.com)
+- Frontend Mentor - [@KPInc425](https://www.frontendmentor.io/profile/KPInc425)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Google is pretty good!
